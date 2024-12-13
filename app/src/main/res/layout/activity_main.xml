@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/system_accent3_900"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextNombre"
+        android:layout_width="322dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="45dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSiguiente"
+        android:layout_width="282dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="67dp"
+        android:backgroundTint="#B49001"
+        android:text="Siguiente"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="327dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:hint="Teléfono"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextNombre" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="74dp"
+        android:text="Bienvenido al Salón Habana"
+        android:textColor="#B49001"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

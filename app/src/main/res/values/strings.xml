@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Salon Habana</string>
+    <string-array name="tipo_reserva">
+        <item>Banquete</item>
+        <item>Jornada</item>
+        <item>Congreso</item>
+    </string-array>
+    <string-array name="tipo_cocina">
+        <item>Bufé</item>
+        <item>Carta</item>
+        <item>Pedir cita con el chef</item>
+        <item>No precisa</item>
+    </string-array>
+</resources>
